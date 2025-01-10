@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../bin/lib/libmath_problem.a CMakeFiles/math_problem.dir/PalindromeNumber9.cpp.o
+/usr/bin/ranlib ../../../bin/lib/libmath_problem.a

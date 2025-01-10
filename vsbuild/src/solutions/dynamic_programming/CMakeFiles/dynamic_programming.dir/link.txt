@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../bin/lib/libdynamic_programming.a CMakeFiles/dynamic_programming.dir/ClimbingStairs_70.cpp.o CMakeFiles/dynamic_programming.dir/NetworkDelayTime_743.cpp.o
+/usr/bin/ranlib ../../../bin/lib/libdynamic_programming.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../bin/lib/libgame.a CMakeFiles/game.dir/NimGame_292.cpp.o
+/usr/bin/ranlib ../../../bin/lib/libgame.a
