@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../bin/lib/libarray.a CMakeFiles/array.dir/ContainerWithMostWater_11.cpp.o CMakeFiles/array.dir/KthLargestElement_215.cpp.o CMakeFiles/array.dir/LongestConsecutiveSequence_128.cpp.o CMakeFiles/array.dir/MaximumSubarray_53.cpp.o CMakeFiles/array.dir/MedianOfTwoSortedArrays_4.cpp.o CMakeFiles/array.dir/MergeIntervals_56.cpp.o CMakeFiles/array.dir/MergeSortedArray_88.cpp.o CMakeFiles/array.dir/SubarraySumEqualsK_560.cpp.o CMakeFiles/array.dir/TwoSum_1.cpp.o
-/usr/bin/ranlib ../../../bin/lib/libarray.a

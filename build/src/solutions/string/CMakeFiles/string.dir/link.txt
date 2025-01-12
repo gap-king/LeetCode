@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../bin/lib/libstring.a CMakeFiles/string.dir/EditDistance_72.cpp.o
-/usr/bin/ranlib ../../../bin/lib/libstring.a

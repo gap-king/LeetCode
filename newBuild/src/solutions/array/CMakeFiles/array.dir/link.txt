@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../bin/lib/libarray.a CMakeFiles/array.dir/TwoSum1.cpp.o
-/usr/bin/ranlib ../../../bin/lib/libarray.a
