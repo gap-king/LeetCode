@@ -9,5 +9,7 @@ add_library(dynamic_programming STATIC ${DYNAMIC_PROGRAMMING_SOURCES})
 # Include the problems directory for headers
 target_include_directories(dynamic_programming
     PUBLIC
-        ${CMAKE_CURRENT_SOURCE_DIR}
+        ${CMAKE_CURRENT_SOURCE_DIR},
+        ${CMAKE_SOURCE_DIR}
+
 )

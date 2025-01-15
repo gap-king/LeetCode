@@ -19,6 +19,7 @@
 #include "solutions/game/NimGame_292.hpp"
 #include "solutions/dynamic_programming/ClimbingStairs_70.hpp"
 #include "solutions/dynamic_programming/NetworkDelayTime_743.hpp"
+#include "solutions/dynamic_programming/PathWithLeastEffort_1631.hpp"
 
 
 class SolutionManager {
@@ -52,6 +53,8 @@ public:
     void SolveMedianOfTwoSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2);
 
     void SolveNetWorkDelayTime(const std::vector<std::vector<int>> &times, int n, int k);
+
+    void SolvePathWithLeastEffort(const std::vector<std::vector<int>> &heights);
 };
 
 

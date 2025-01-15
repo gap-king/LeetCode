@@ -108,3 +108,11 @@ void SolutionManager::SolveNetWorkDelayTime(const std::vector<std::vector<int>> 
 
     return;
 }
+
+void SolutionManager::SolvePathWithLeastEffort(const std::vector<std::vector<int>> &heights) {
+    int res = PathWithLeastEffort()(heights);
+
+    return;
+
+
+}
