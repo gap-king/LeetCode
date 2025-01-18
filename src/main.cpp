@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include "SolutionManager.hpp"
+#include "src/data_structures/TreeNode.hpp"
 
 using namespace std;
 
@@ -62,6 +63,9 @@ int main() {
     // manager.SolvePathWithLeastEffort({{1,2,2},{3,8,2},{5,3,5}});
     manager.SolvePathWithLeastEffort({{1,10,6,7,9,10,4,9}});
     
+    TreeNode *tree1 = CreateTreeNodeCase1();
+    manager.SolveMaxinumDepthOfBinaryTree(tree1);
+    DeleteBinaryTree(tree1);
     
     return 0;
 }

@@ -32,7 +32,7 @@ int LongestConsecutiveSequence::Solve2(const std::vector<int> &nums) {
 
     int maxLength = 0;
 
-    int cc = maxLength++;
+    int cc = ++maxLength;
     for (auto &num : numSet) {
         if (!numSet.count(num - 1)) {
             int length = 1;

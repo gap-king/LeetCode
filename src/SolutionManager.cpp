@@ -113,6 +113,11 @@ void SolutionManager::SolvePathWithLeastEffort(const std::vector<std::vector<int
     int res = PathWithLeastEffort()(heights);
 
     return;
+}
 
+void SolutionManager::SolveMaxinumDepthOfBinaryTree(TreeNode *root) {
+    int res = MaximumDepthOfBinaryTree()(root);
+
+    return;
 
 }
