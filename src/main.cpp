@@ -64,7 +64,8 @@ int main() {
     manager.SolvePathWithLeastEffort({{1,10,6,7,9,10,4,9}});
     
     TreeNode *tree1 = CreateTreeNodeCase1();
-    manager.SolveMaxinumDepthOfBinaryTree(tree1);
+    // manager.SolveMaxinumDepthOfBinaryTree(tree1);
+    manager.SolveMinimumDepthOfBinaryTree(tree1);
     DeleteBinaryTree(tree1);
     
     return 0;

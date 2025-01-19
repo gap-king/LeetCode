@@ -119,5 +119,10 @@ void SolutionManager::SolveMaxinumDepthOfBinaryTree(TreeNode *root) {
     int res = MaximumDepthOfBinaryTree()(root);
 
     return;
+}
 
+void SolutionManager::SolveMinimumDepthOfBinaryTree(TreeNode *root) {
+    int res = MinimumDepthOfBinaryTree()(root);
+
+    return;
 }

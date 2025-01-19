@@ -21,6 +21,7 @@
 #include "solutions/dynamic_programming/NetworkDelayTime_743.hpp"
 #include "solutions/dynamic_programming/PathWithLeastEffort_1631.hpp"
 #include "solutions/binary_tree/MaximumDepthOfBinaryTree_104.hpp"
+#include "solutions/binary_tree/MinimumDepthOfBinaryTree_111.hpp"
 
 class SolutionManager {
 public:
@@ -57,6 +58,8 @@ public:
     void SolvePathWithLeastEffort(const std::vector<std::vector<int>> &heights);
 
     void SolveMaxinumDepthOfBinaryTree(TreeNode *root);
+
+    void SolveMinimumDepthOfBinaryTree(TreeNode *root);
 };
 
 
