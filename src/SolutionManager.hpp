@@ -13,6 +13,7 @@
 #include "solutions/array/LongestConsecutiveSequence_128.hpp"
 #include "solutions/array/KthLargestElement_215.hpp"
 #include "solutions/array/SubarraySumEqualsK_560.hpp"
+#include "solutions/array/PartitionEqualSubsetSum_416.hpp"
 #include "solutions/math_problem/PalindromeNumber_9.hpp"
 #include "solutions/math_problem/PowerXN_50.hpp"
 #include "solutions/string/EditDistance_72.hpp"
@@ -60,6 +61,8 @@ public:
     void SolveMaxinumDepthOfBinaryTree(TreeNode *root);
 
     void SolveMinimumDepthOfBinaryTree(TreeNode *root);
+
+    void SolvePartitionEqualSubsetSum(const vector<int> &nums);
 };
 
 

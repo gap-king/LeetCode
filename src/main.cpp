@@ -28,6 +28,7 @@ int main() {
 
     vector<int> nums1 {1, 2};
     vector<int> nums2 {3, 4, 5};
+    vector<int> nums3 {1, 5, 11, 5};
     // manager.SolveMergeSortedArray(nums1, 1, nums2, 1);
 
     // manager.SolveKthLargestElement({3,2,1,5,6,4}, 2);
@@ -61,12 +62,14 @@ int main() {
     // manager.SolveNetWorkDelayTime({{2,1,1}, {2,3,1}, {3,4,1}}, 4, 2);
 
     // manager.SolvePathWithLeastEffort({{1,2,2},{3,8,2},{5,3,5}});
-    manager.SolvePathWithLeastEffort({{1,10,6,7,9,10,4,9}});
+    // manager.SolvePathWithLeastEffort({{1,10,6,7,9,10,4,9}});
     
-    TreeNode *tree1 = CreateTreeNodeCase1();
+    // TreeNode *tree1 = CreateTreeNodeCase1();
     // manager.SolveMaxinumDepthOfBinaryTree(tree1);
-    manager.SolveMinimumDepthOfBinaryTree(tree1);
-    DeleteBinaryTree(tree1);
+    // manager.SolveMinimumDepthOfBinaryTree(tree1);
+    // DeleteBinaryTree(tree1);
     
+    manager.SolvePartitionEqualSubsetSum(nums3);
+
     return 0;
 }

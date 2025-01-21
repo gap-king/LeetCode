@@ -126,3 +126,10 @@ void SolutionManager::SolveMinimumDepthOfBinaryTree(TreeNode *root) {
 
     return;
 }
+
+void SolutionManager::SolvePartitionEqualSubsetSum(const vector<int> &nums)
+{
+    int res = PartitionEqualSubsetSum()(nums);
+
+    return;
+}
