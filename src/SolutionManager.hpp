@@ -7,6 +7,7 @@
 #include "solutions/array/TwoSum_1.hpp"
 #include "solutions/array/MedianOfTwoSortedArrays_4.hpp"
 #include "solutions/array/ContainerWithMostWater_11.hpp"
+#include "solutions/array/ThreeSum_15.hpp"
 #include "solutions/array/MaximumSubarray_53.hpp"
 #include "solutions/array/MergeIntervals_56.hpp"
 #include "solutions/array/MergeSortedArray_88.hpp"
@@ -63,6 +64,8 @@ public:
     void SolveMinimumDepthOfBinaryTree(TreeNode *root);
 
     void SolvePartitionEqualSubsetSum(const vector<int> &nums);
+
+    void SolveThreeSum(vector<int> &nums);
 };
 
 

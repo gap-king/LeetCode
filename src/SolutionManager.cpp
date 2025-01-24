@@ -133,3 +133,10 @@ void SolutionManager::SolvePartitionEqualSubsetSum(const vector<int> &nums)
 
     return;
 }
+
+void SolutionManager::SolveThreeSum(vector<int> &nums)
+{
+    vector<vector<int>> res = ThreeSum()(nums);
+
+    return;
+}
