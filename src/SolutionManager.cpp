@@ -140,3 +140,13 @@ void SolutionManager::SolveThreeSum(vector<int> &nums)
 
     return;
 }
+
+void SolutionManager::SolveNumberOfIslands()
+{
+    auto testCase1 = NumberOfIslands::GetTestArg(TestCase::one);
+    auto testCase2 = NumberOfIslands::GetTestArg(TestCase::two);
+
+    int res1 = NumberOfIslands()(testCase1);
+
+    return;
+}

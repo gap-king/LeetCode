@@ -74,6 +74,6 @@ int main() {
     vector<int> nums4 {-2,0,0,2,2};
     manager.SolveThreeSum(nums4);
 
-
+    manager.SolveNumberOfIslands();
     return 0;
 }

@@ -24,6 +24,7 @@
 #include "solutions/dynamic_programming/PathWithLeastEffort_1631.hpp"
 #include "solutions/binary_tree/MaximumDepthOfBinaryTree_104.hpp"
 #include "solutions/binary_tree/MinimumDepthOfBinaryTree_111.hpp"
+#include "solutions/graph/NumberOfIslands_200.hpp"
 
 class SolutionManager {
 public:
@@ -66,6 +67,8 @@ public:
     void SolvePartitionEqualSubsetSum(const vector<int> &nums);
 
     void SolveThreeSum(vector<int> &nums);
+
+    void SolveNumberOfIslands();
 };
 
 

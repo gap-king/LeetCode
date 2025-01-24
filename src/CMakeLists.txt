@@ -21,4 +21,4 @@ add_subdirectory(data_structures)
 add_subdirectory(solutions)
 
 # Link problem libraries to the main executable
-target_link_libraries(LeetCode PRIVATE data_structures math_problem array string game dynamic_programming binary_tree)
+target_link_libraries(LeetCode PRIVATE data_structures math_problem array string game dynamic_programming binary_tree graph)

@@ -10,4 +10,12 @@
 using std::vector;
 using std::string;
 
+/// @brief Define test case index
+enum struct TestCase {
+    one,
+    two,
+    three
+};
+
+
 #endif
