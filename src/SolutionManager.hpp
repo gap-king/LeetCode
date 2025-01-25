@@ -25,6 +25,7 @@
 #include "solutions/binary_tree/MaximumDepthOfBinaryTree_104.hpp"
 #include "solutions/binary_tree/MinimumDepthOfBinaryTree_111.hpp"
 #include "solutions/graph/NumberOfIslands_200.hpp"
+#include "solutions/graph/SwimInRisingWater_778.hpp"
 
 class SolutionManager {
 public:
@@ -69,6 +70,8 @@ public:
     void SolveThreeSum(vector<int> &nums);
 
     void SolveNumberOfIslands();
+
+    void SolveSwimInRisingWater();
 };
 
 

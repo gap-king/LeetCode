@@ -71,9 +71,11 @@ int main() {
     
     // manager.SolvePartitionEqualSubsetSum(nums3);
     // vector<int> nums4 {-1,0,1,2,-1,-4};
-    vector<int> nums4 {-2,0,0,2,2};
-    manager.SolveThreeSum(nums4);
+    // vector<int> nums4 {-2,0,0,2,2};
+    // manager.SolveThreeSum(nums4);
 
-    manager.SolveNumberOfIslands();
+    // manager.SolveNumberOfIslands();
+
+    manager.SolveSwimInRisingWater();
     return 0;
 }

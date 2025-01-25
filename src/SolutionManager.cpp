@@ -150,3 +150,14 @@ void SolutionManager::SolveNumberOfIslands()
 
     return;
 }
+
+void SolutionManager::SolveSwimInRisingWater()
+{
+    auto testCase1 = SwimInRisingWater::GetTestArg(TestCase::one);
+    int res1 = SwimInRisingWater()(testCase1);
+
+    // auto testCase2 = SwimInRisingWater::GetTestArg(TestCase::two);
+    // int res2 = SwimInRisingWater()(testCase2);
+
+    return;
+}
