@@ -76,6 +76,8 @@ int main() {
 
     // manager.SolveNumberOfIslands();
 
-    manager.SolveSwimInRisingWater();
+    // manager.SolveSwimInRisingWater();
+
+    manager.SolveOnesAndZeros();
     return 0;
 }

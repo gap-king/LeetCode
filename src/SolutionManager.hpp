@@ -14,7 +14,6 @@
 #include "solutions/array/LongestConsecutiveSequence_128.hpp"
 #include "solutions/array/KthLargestElement_215.hpp"
 #include "solutions/array/SubarraySumEqualsK_560.hpp"
-#include "solutions/array/PartitionEqualSubsetSum_416.hpp"
 #include "solutions/math_problem/PalindromeNumber_9.hpp"
 #include "solutions/math_problem/PowerXN_50.hpp"
 #include "solutions/string/EditDistance_72.hpp"
@@ -26,6 +25,8 @@
 #include "solutions/binary_tree/MinimumDepthOfBinaryTree_111.hpp"
 #include "solutions/graph/NumberOfIslands_200.hpp"
 #include "solutions/graph/SwimInRisingWater_778.hpp"
+#include "solutions/knapsack/PartitionEqualSubsetSum_416.hpp"
+#include "solutions/knapsack/OnesAndZeros_474.hpp"
 
 class SolutionManager {
 public:
@@ -72,6 +73,8 @@ public:
     void SolveNumberOfIslands();
 
     void SolveSwimInRisingWater();
+
+    void SolveOnesAndZeros();
 };
 
 

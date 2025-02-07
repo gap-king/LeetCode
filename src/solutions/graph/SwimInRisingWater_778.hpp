@@ -7,5 +7,5 @@ class SwimInRisingWater {
 public:
     int operator()(vector<vector<int>> &grid);
 
-    static vector<vector<int>> GetTestArg(TestCase caseIndx);
+    static vector<vector<int>> GetTestArg(TestCase caseIdx);
 };

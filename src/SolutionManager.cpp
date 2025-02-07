@@ -161,3 +161,10 @@ void SolutionManager::SolveSwimInRisingWater()
 
     return;
 }
+
+void SolutionManager::SolveOnesAndZeros()
+{
+    auto testCase1 = OnesAndZeros::GetTestArg(TestCase::one);
+    int res1 = OnesAndZeros()(std::get<0>(testCase1), std::get<1>(testCase1), std::get<2>(testCase1));
+
+}
