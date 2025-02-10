@@ -27,6 +27,7 @@
 #include "solutions/graph/SwimInRisingWater_778.hpp"
 #include "solutions/knapsack/PartitionEqualSubsetSum_416.hpp"
 #include "solutions/knapsack/OnesAndZeros_474.hpp"
+#include "solutions/linked_list/AddTwoNumbers_2.hpp"
 
 class SolutionManager {
 public:
@@ -75,6 +76,8 @@ public:
     void SolveSwimInRisingWater();
 
     void SolveOnesAndZeros();
+
+    void SolveAddTwoNumbers();
 };
 
 

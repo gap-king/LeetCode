@@ -168,3 +168,31 @@ void SolutionManager::SolveOnesAndZeros()
     int res1 = OnesAndZeros()(std::get<0>(testCase1), std::get<1>(testCase1), std::get<2>(testCase1));
 
 }
+
+void SolutionManager::SolveAddTwoNumbers()
+{
+    // ListNode* l11 = ListNode::CreateLinkedListFromVector({2, 4, 3});
+    // ListNode* l12 = ListNode::CreateLinkedListFromVector({5, 6, 4});
+    // ListNode* res1 = AddTowNumbers()(l11, l12);
+
+    // ListNode::DeleteLinkedList(l11);
+    // ListNode::DeleteLinkedList(l12);
+    // ListNode::DeleteLinkedList(res1);
+
+    // ListNode* l21 = ListNode::CreateLinkedListFromVector({0});
+    // ListNode* l22 = ListNode::CreateLinkedListFromVector({0});
+    // ListNode* res2 = AddTowNumbers()(l21, l22);
+
+    // ListNode::DeleteLinkedList(l21);
+    // ListNode::DeleteLinkedList(l22);
+    // ListNode::DeleteLinkedList(res2);
+
+    ListNode* l31 = ListNode::CreateLinkedListFromVector({9, 9, 9, 9, 9, 9, 9});
+    ListNode* l32 = ListNode::CreateLinkedListFromVector({9, 9, 9, 9});
+    ListNode* res3 = AddTowNumbers()(l31, l32);
+
+    ListNode::DeleteLinkedList(l31);
+    ListNode::DeleteLinkedList(l32);
+    ListNode::DeleteLinkedList(res3);
+
+}

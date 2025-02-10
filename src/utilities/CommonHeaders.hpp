@@ -12,9 +12,12 @@ using std::string;
 
 /// @brief Define test case index
 enum struct TestCase {
+    zero,
     one,
     two,
-    three
+    three,
+    four,
+    five
 };
 
 

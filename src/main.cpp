@@ -78,6 +78,9 @@ int main() {
 
     // manager.SolveSwimInRisingWater();
 
-    manager.SolveOnesAndZeros();
+    // manager.SolveOnesAndZeros();
+
+    manager.SolveAddTwoNumbers();
+
     return 0;
 }
