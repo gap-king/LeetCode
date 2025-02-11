@@ -17,6 +17,7 @@
 #include "solutions/math_problem/PalindromeNumber_9.hpp"
 #include "solutions/math_problem/PowerXN_50.hpp"
 #include "solutions/string/EditDistance_72.hpp"
+#include "solutions/string/LongestSubstrWithoutRepeating_3.hpp"
 #include "solutions/game/NimGame_292.hpp"
 #include "solutions/dynamic_programming/ClimbingStairs_70.hpp"
 #include "solutions/dynamic_programming/NetworkDelayTime_743.hpp"
@@ -78,6 +79,8 @@ public:
     void SolveOnesAndZeros();
 
     void SolveAddTwoNumbers();
+
+    void SolveLongestSubstrWithoutRepeating();
 };
 
 

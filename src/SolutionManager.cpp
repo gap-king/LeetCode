@@ -167,6 +167,7 @@ void SolutionManager::SolveOnesAndZeros()
     auto testCase1 = OnesAndZeros::GetTestArg(TestCase::one);
     int res1 = OnesAndZeros()(std::get<0>(testCase1), std::get<1>(testCase1), std::get<2>(testCase1));
 
+    return;
 }
 
 void SolutionManager::SolveAddTwoNumbers()
@@ -194,5 +195,15 @@ void SolutionManager::SolveAddTwoNumbers()
     ListNode::DeleteLinkedList(l31);
     ListNode::DeleteLinkedList(l32);
     ListNode::DeleteLinkedList(res3);
+
+    return;
+}
+
+void SolutionManager::SolveLongestSubstrWithoutRepeating()
+{
+    string case1 = LongestSubstrWithoutRepeating::GetTestArg(TestCase::one);
+    int res = LongestSubstrWithoutRepeating()(case1);
+
+    return;
 
 }

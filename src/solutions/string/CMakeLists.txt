@@ -9,5 +9,6 @@ add_library(string STATIC ${STRING_SOURCES})
 # Include the directory for headers
 target_include_directories(string
     PUBLIC
-        ${CMAKE_CURRENT_SOURCE_DIR}
+        ${CMAKE_CURRENT_SOURCE_DIR},
+        ${CMAKE_SOURCE_DIR}
 )
