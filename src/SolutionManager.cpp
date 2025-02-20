@@ -207,3 +207,14 @@ void SolutionManager::SolveLongestSubstrWithoutRepeating()
     return;
 
 }
+
+void SolutionManager::SolveMaxLengthOfUniqueConcat()
+{
+    vector<string> case0 = MaxLenOfUniqueConcat::GetTestArg(TestCase::zero);
+    int res0 = MaxLenOfUniqueConcat()(case0);
+
+    // vector<string> case2 = MaxLenOfUniqueConcat::GetTestArg(TestCase::two);
+    // int res2 = MaxLenOfUniqueConcat()(case2);
+
+    return;
+}

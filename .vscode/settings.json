@@ -47,6 +47,7 @@
         "map": "cpp",
         "unordered_set": "cpp",
         "optional": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "bitset": "cpp"
     }
 }

@@ -82,7 +82,9 @@ int main() {
 
     // manager.SolveAddTwoNumbers();
 
-    manager.SolveLongestSubstrWithoutRepeating();
+    // manager.SolveLongestSubstrWithoutRepeating();
+
+    manager.SolveMaxLengthOfUniqueConcat();
 
     return 0;
 }

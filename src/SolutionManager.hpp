@@ -29,6 +29,7 @@
 #include "solutions/knapsack/PartitionEqualSubsetSum_416.hpp"
 #include "solutions/knapsack/OnesAndZeros_474.hpp"
 #include "solutions/linked_list/AddTwoNumbers_2.hpp"
+#include "solutions/backtrace/MaxLenOfUniqueConcat_1239.hpp"
 
 class SolutionManager {
 public:
@@ -81,6 +82,8 @@ public:
     void SolveAddTwoNumbers();
 
     void SolveLongestSubstrWithoutRepeating();
+
+    void SolveMaxLengthOfUniqueConcat();
 };
 
 
