@@ -218,3 +218,13 @@ void SolutionManager::SolveMaxLengthOfUniqueConcat()
 
     return;
 }
+
+void SolutionManager::SolveAsFarFromLandAsPossible()
+{
+    vector<vector<int>> case1 = AsFarFromLandAsPossible::GetTestArg(TestCase::one);
+    int res1 = AsFarFromLandAsPossible()(case1);
+
+    // vector<vector<int>> case2 = AsFarFromLandAsPossible::GetTestArg(TestCase::two);
+    // int res2 = AsFarFromLandAsPossible()(case2);
+    return;
+}

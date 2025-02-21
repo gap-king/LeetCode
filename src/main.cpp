@@ -84,7 +84,9 @@ int main() {
 
     // manager.SolveLongestSubstrWithoutRepeating();
 
-    manager.SolveMaxLengthOfUniqueConcat();
+    // manager.SolveMaxLengthOfUniqueConcat();
+
+    manager.SolveAsFarFromLandAsPossible();
 
     return 0;
 }

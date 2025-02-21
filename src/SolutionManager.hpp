@@ -26,6 +26,7 @@
 #include "solutions/binary_tree/MinimumDepthOfBinaryTree_111.hpp"
 #include "solutions/graph/NumberOfIslands_200.hpp"
 #include "solutions/graph/SwimInRisingWater_778.hpp"
+#include "solutions/graph/AsFarFromLandAsPossible_1162.hpp"
 #include "solutions/knapsack/PartitionEqualSubsetSum_416.hpp"
 #include "solutions/knapsack/OnesAndZeros_474.hpp"
 #include "solutions/linked_list/AddTwoNumbers_2.hpp"
@@ -84,6 +85,8 @@ public:
     void SolveLongestSubstrWithoutRepeating();
 
     void SolveMaxLengthOfUniqueConcat();
+
+    void SolveAsFarFromLandAsPossible();
 };
 
 
