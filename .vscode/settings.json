@@ -48,6 +48,7 @@
         "unordered_set": "cpp",
         "optional": "cpp",
         "set": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "queue": "cpp"
     }
 }

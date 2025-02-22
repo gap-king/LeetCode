@@ -31,6 +31,7 @@
 #include "solutions/knapsack/OnesAndZeros_474.hpp"
 #include "solutions/linked_list/AddTwoNumbers_2.hpp"
 #include "solutions/backtrace/MaxLenOfUniqueConcat_1239.hpp"
+#include "interview_bank/ShortestReturnRoad.hpp"
 
 class SolutionManager {
 public:
@@ -87,6 +88,8 @@ public:
     void SolveMaxLengthOfUniqueConcat();
 
     void SolveAsFarFromLandAsPossible();
+
+    void SolveShortestReturnPath();
 };
 
 

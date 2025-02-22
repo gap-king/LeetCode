@@ -228,3 +228,20 @@ void SolutionManager::SolveAsFarFromLandAsPossible()
     // int res2 = AsFarFromLandAsPossible()(case2);
     return;
 }
+
+void SolutionManager::SolveShortestReturnPath()
+{
+    string case1 = ShortestReturnRoad::GetTestArg(TestCase::one);
+    string res1 = ShortestReturnRoad()(case1);
+
+    string case2 = ShortestReturnRoad::GetTestArg(TestCase::two);
+    string res2 = ShortestReturnRoad()(case2);
+
+    string case3 = ShortestReturnRoad::GetTestArg(TestCase::three);
+    string res3 = ShortestReturnRoad()(case3);
+
+    string case4 = ShortestReturnRoad::GetTestArg(TestCase::four);
+    string res4 = ShortestReturnRoad()(case4);
+
+    return;
+}

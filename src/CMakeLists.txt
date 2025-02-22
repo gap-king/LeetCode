@@ -19,6 +19,7 @@ target_include_directories(LeetCode
 # Add problem-specific subdirectory
 add_subdirectory(data_structures)
 add_subdirectory(solutions)
+add_subdirectory(interview_bank)
 
 # Link problem libraries to the main executable
-target_link_libraries(LeetCode PRIVATE data_structures math_problem array string game dynamic_programming binary_tree graph knapsack linked_list backtrace)
+target_link_libraries(LeetCode PRIVATE data_structures interview_bank math_problem array string game dynamic_programming binary_tree graph knapsack linked_list backtrace)

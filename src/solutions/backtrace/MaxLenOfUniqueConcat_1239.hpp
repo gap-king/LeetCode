@@ -4,7 +4,7 @@
 
 /**
  * @details Use backtrace with bitset
- * @remark Synopsys (1 of 3), Tesla
+ * @remark Synopsys (No.1 of 3), Tesla
  */
 class MaxLenOfUniqueConcat {
 public:

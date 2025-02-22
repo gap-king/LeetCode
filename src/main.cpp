@@ -86,7 +86,9 @@ int main() {
 
     // manager.SolveMaxLengthOfUniqueConcat();
 
-    manager.SolveAsFarFromLandAsPossible();
+    // manager.SolveAsFarFromLandAsPossible();
+
+    manager.SolveShortestReturnPath();
 
     return 0;
 }
