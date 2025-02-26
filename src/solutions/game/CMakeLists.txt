@@ -9,5 +9,6 @@ add_library(game STATIC ${GAME_SOURCES})
 # Include the problems directory for headers
 target_include_directories(game
     PUBLIC
-        ${CMAKE_CURRENT_SOURCE_DIR}
+        ${CMAKE_CURRENT_SOURCE_DIR},
+        ${CMAKE_SOURCE_DIR}
 )

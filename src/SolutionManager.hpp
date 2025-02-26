@@ -19,6 +19,7 @@
 #include "solutions/string/EditDistance_72.hpp"
 #include "solutions/string/LongestSubstrWithoutRepeating_3.hpp"
 #include "solutions/game/NimGame_292.hpp"
+#include "solutions/game/FreedomTrail_514.hpp"
 #include "solutions/dynamic_programming/ClimbingStairs_70.hpp"
 #include "solutions/dynamic_programming/NetworkDelayTime_743.hpp"
 #include "solutions/dynamic_programming/PathWithLeastEffort_1631.hpp"
@@ -90,6 +91,8 @@ public:
     void SolveAsFarFromLandAsPossible();
 
     void SolveShortestReturnPath();
+
+    void SolveFreedomTrail();
 };
 
 

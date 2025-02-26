@@ -88,7 +88,8 @@ int main() {
 
     // manager.SolveAsFarFromLandAsPossible();
 
-    manager.SolveShortestReturnPath();
+    // manager.SolveShortestReturnPath();
 
+    manager.SolveFreedomTrail();
     return 0;
 }

@@ -245,3 +245,23 @@ void SolutionManager::SolveShortestReturnPath()
 
     return;
 }
+
+void SolutionManager::SolveFreedomTrail()
+{
+    // auto case1 = FreedomTrail::GetTestArg(TestCase::one);
+    // int res1 = FreedomTrail()(case1.first, case1.second);
+
+    // auto case2 = FreedomTrail::GetTestArg(TestCase::two);
+    // int res2 = FreedomTrail()(case2.first, case2.second);
+
+    // auto case3 = FreedomTrail::GetTestArg(TestCase::three);
+    // int res3 = FreedomTrail()(case3.first, case3.second);
+
+    // auto case4 = FreedomTrail::GetTestArg(TestCase::four);
+    // int res4 = FreedomTrail()(case4.first, case4.second);
+
+    auto case5 = FreedomTrail::GetTestArg(TestCase::five);
+    int res5 = FreedomTrail()(case5.first, case5.second);
+
+    return;
+}
